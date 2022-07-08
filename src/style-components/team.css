@@ -1,0 +1,81 @@
+.teams .title::after {
+  content: "môj tím";
+}
+
+.teams .pe {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.teams .carousel .card {
+  background: #222;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover,
+.teams .carousel .card:active {
+  background: crimson;
+}
+
+.teams .carousel .card .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.teams .carousel .card:hover .box,
+.teams .carousel .card:active .box {
+  transform: scale(1.05);
+}
+
+.teams .carousel .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.teams .carousel .card img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid crimson;
+  transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover img,
+.teams .carousel .card:active img {
+  border-color: #fff;
+}
+
+.owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.owl-dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 5px;
+  outline: none !important;
+  border-radius: 50%;
+  border: 2px solid crimson !important;
+  transition: all 0.3s ease;
+}
+
+.owl-dot.active {
+  width: 35px;
+  border-radius: 14px;
+}
+
+.owl-dot.active,
+hover,
+.owl-dot.active,
+active {
+  background: crimson !important;
+}

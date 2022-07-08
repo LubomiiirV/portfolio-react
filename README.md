@@ -1,3 +1,7 @@
+Page is running on AWS:
+
+https://main.d1xk06xnqjsi6t.amplifyapp.com/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
