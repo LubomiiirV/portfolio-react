@@ -79,6 +79,12 @@ section .title::after {
   transform: translateX(-50%);
 }
 
+@media (max-width: 380px) {
+  .home .max-width {
+    margin-left: 0;
+  }
+}
+
 
 /* responsive media query start */
 /* responsive media query start */

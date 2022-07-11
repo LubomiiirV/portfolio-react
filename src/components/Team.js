@@ -9,7 +9,7 @@ import Sponge from "../images/sponge.png";
 function Team() {
   return (
     <section className="teams" id="teams">
-      <div className="max-width">
+      {/* <div className="max-width">
         <h2 className="title">Môj tím</h2>
         <p className="pe">Sekcia založená pre demonštráciu JS/jQuery</p>
         <div className="carousel owl-carousel">
@@ -49,7 +49,7 @@ function Team() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

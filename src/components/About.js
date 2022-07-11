@@ -6,7 +6,7 @@ import "../style-components/about.css";
 function About() {
   return (
     <section className="about" id="about">
-      <div className="max-width">
+      {/* <div className="max-width">
         <h2 className="title">O mne</h2>
         <div className="about-content">
           <div className="column left">
@@ -45,7 +45,7 @@ function About() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

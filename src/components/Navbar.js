@@ -26,12 +26,7 @@ function Navbar() {
     >
       <div className="max-width">
         <div className="logo">
-          <img
-            className="mini-logo"
-            src={Logo}
-            alt="LOGO"
-            style={{ width: "15em" }}
-          />
+          <img className="mini-logo" src={Logo} alt="LOGO" />
         </div>
         <div className="menu-btn" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"}> </i>

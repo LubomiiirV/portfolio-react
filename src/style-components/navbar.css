@@ -19,7 +19,7 @@
 }
 
 .logo {
-  width: 200px;
+  width: 100px;
   filter: invert(100%);
 }
 
@@ -73,6 +73,10 @@
   .menu-btn {
     display: block;
     z-index: 999;
+  }
+
+  .logo img {
+    width: 10rem;
   }
 
   .navbar .menu {

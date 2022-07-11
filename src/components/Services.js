@@ -4,7 +4,7 @@ import "../style-components/services.css";
 function Services() {
   return (
     <section className="services" id="services">
-      <div className="max-width">
+      {/* <div className="max-width">
         <h2 className="title">Moje služby</h2>
         <div className="serv-content">
           <div className="card">
@@ -38,7 +38,7 @@ function Services() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

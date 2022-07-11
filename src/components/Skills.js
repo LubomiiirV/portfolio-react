@@ -4,7 +4,7 @@ import "../style-components/skills.css";
 function Skills() {
   return (
     <section className="skills" id="skills">
-      <div className="max-width">
+      {/* <div className="max-width">
         <h2 className="title">Znalosti</h2>
         <p className="pe">Výpovednú hondotu grafov berte prosím s rezervou</p>
 
@@ -43,7 +43,7 @@ function Skills() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

@@ -4,7 +4,7 @@ import "../style-components/contact.css";
 function Contact() {
   return (
     <section className="contact" id="contact">
-      <div className="max-width">
+      {/* <div className="max-width">
         <h2 className="title">Kontakt</h2>
         <div className="contact-content">
           <div className="column left">
@@ -64,7 +64,7 @@ function Contact() {
             </form>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }
