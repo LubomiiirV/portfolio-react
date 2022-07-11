@@ -6,7 +6,7 @@ function Footer() {
     <footer>
       <span>
         Vytvoril <a href="#home">LuboWeb</a> /{" "}
-        <span class="far fa-copyright"></span> 2021
+        <span className="far fa-copyright"></span> 2021
       </span>
     </footer>
   );

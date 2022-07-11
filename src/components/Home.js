@@ -14,7 +14,7 @@ function Home() {
               strings={[
                 "a táto stránka bola vytvorená pomocou Reactu",
                 "a táto stránka bola vytvorená pomocou doplnkov",
-                "a táto stránka bola vytvorená pomocou a knižníc.",
+                "a táto stránka bola vytvorená pomocou knižníc.",
               ]}
               typeSpeed={70}
               backSpeed={70}

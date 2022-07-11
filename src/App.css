@@ -39,9 +39,10 @@ footer {
 .services .serv-content,
 .skills .skills-content,
 .contact,
+.owl-carousel,
 .contact-content {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-items: center;
   justify-content: space-between;
 }
